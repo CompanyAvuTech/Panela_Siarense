@@ -16,19 +16,19 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 * Educação e Conhecimento: Estimular o aprendizado sobre a cultura e a culinária do estado, fornecendo informações sobre os pratos e suas origens.
 
 ### Estrutura do Repositório
-[API](API): 
+[API](API): Nesta pasta você encontrar toda a documentação e explição das bibliotecas que necessita baixar para rodar o projeto.
 
-[CF](CF): 
+[CF](CF): Na pasta CF, você encontrará todo o código do nosso site tanto do front(html,css...) como do back(node.js).
 
-[DB](DB): 
+[DB](DB): A pasta DB contém todos os recursos relacionados à gestão e manutenção do banco de dados.
 
 [DESIGN](DESIGN): Nesta pasta estão todos os recursos relacionados ao design da interface do usuário e experiência do usuário, como wireframes, protótipos e assets visuais.
 
-[Documentos](Documentos):
+[Documentos](Documentos): Aqui você encontrará toda a documentação(inspirações) que usamos como base no nosso projeto. 
 
-[Imagens](Imagens):
+[Imagens](Imagens): Nesta pasta estão todas as imagens utilizadas no site.
 
-[Requerimentos](Requeriments):
+[Requerimentos](Requeriments): 
 
 ## Contato
 
