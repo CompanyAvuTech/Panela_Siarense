@@ -24,7 +24,7 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 
 [DESIGN](DESIGN): Nesta pasta estão todos os recursos relacionados ao design da interface do usuário e experiência do usuário, como wireframes, protótipos e assets visuais.
 
-[dOCUMENTOS](Documentos):
+[Documentos](Documentos):
 
 [Imagens](Imagens):
 
