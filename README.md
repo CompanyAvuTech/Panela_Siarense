@@ -16,8 +16,24 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 * Educação e Conhecimento: Estimular o aprendizado sobre a cultura e a culinária do estado, fornecendo informações sobre os pratos e suas origens.
 
 ### Estrutura do Repositório:
-[Mockup](Mockup): Nesta seção, você encontrará o Mockup no formato em PDF para facilitar a visualização.
+[API](API): 
 
-[Wireframe](Wireframe): O wireframe pode ser visualizado diretamente no repositório. Ele está disponível no formato em PDF para facilitar a visualização.
+[CF](CF): 
 
-[Fluxo_de_Tela](Fluxo_de_Tela): Aqui disponibilizamos o fluxo de tela do site PanelaSiarence, mostrando a navegação entre as diferentes páginas e interações do usuário.
+[DB](DB): 
+
+[DESIGN](DESIGN): Nesta pasta estão todos os recursos relacionados ao design da interface do usuário e experiência do usuário, como wireframes, protótipos e assets visuais.
+
+[dOCUMENTOS](Documentos):
+
+[Imagens](Imagens):
+
+[Requerimentos](Requeriments):
+
+## Contato
+
+Para mais informações sobre o projeto PanelaSiarense ou para entrar em contato com a equipe, você pode nos encontrar nos seguintes canais:
+
+- Email: [avutech6gmail.com](avutech6gmail.com)
+- GitHub: [CompanyAvuTech](https://github.com/CompanyAvuTech)
+
