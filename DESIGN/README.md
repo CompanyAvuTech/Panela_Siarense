@@ -29,7 +29,7 @@ Nossa abordagem de design visa combinar estética impressionante com funcionalid
 Os protótipos pode ser acessado diretamente no Figma através dos seguinte links: 
 * [Protótipo 01](https://www.figma.com/file/1w7IPVuEw7wI0GnoPSRoQv/PanelaSiarense?type=design&node-id=0-1&mode=design&t=3T3yq4LIFg3Wt4ud-0). 
 * [Protótipo 02](https://www.figma.com/file/uUmjhruh0GeV8Ymx99I7Vp/Prototipagem-2.0?type=design&node-id=0-1&mode=design&t=7nek9z6tjOiP9If5-0).
-* [Prtótipo 03](https://www.figma.com/file/p4RZCqIYBuNiY3CBeSMFUd/Prototipagem-3.0?type=design&node-id=0-1&mode=design&t=6jk5H1AtinmXjhLU-0)
+* [Prtótipo 03](https://www.figma.com/file/p4RZCqIYBuNiY3CBeSMFUd/Prototipagem-3.0?type=design&node-id=0-1&mode=design&t=6jk5H1AtinmXjhLU-0).
 
 ###### Sobre o Wireframe do Site "PanelaSiarense"
 [Wireframe](Wireframe): O wireframe neste repositório foi criado com o objetivo de representar os esboços iniciais e a estrutura preliminar do design site PanelaSiarense. Visando fornecer uma visão inicial da estrutura e layout do site, representando as diferentes páginas e funcionalidades. Ele abrange as seguintes áreas principais:
