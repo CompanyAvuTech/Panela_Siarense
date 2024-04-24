@@ -16,7 +16,7 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 * Educação e Conhecimento: Estimular o aprendizado sobre a cultura e a culinária do estado, fornecendo informações sobre os pratos e suas origens.
 
 ### Estrutura do Repositório
-[API](API): Nesta pasta você encontrar toda a documentação e explição das bibliotecas que necessita baixar para rodar o projeto.
+[API](API): Nesta pasta você encontrar toda a documentação e explição das bibliotecas que necessita baixar para o funcionamento ideal do projeto.
 
 [CF](CF): Na pasta CF, você encontrará todo o código do nosso site tanto do front(html,css...) como do back(node.js).
 
