@@ -42,3 +42,8 @@ Os protótipos pode ser acessado diretamente no Figma através dos seguinte link
 * [Protótipo 01](https://www.figma.com/file/1w7IPVuEw7wI0GnoPSRoQv/PanelaSiarense?type=design&node-id=0-1&mode=design&t=3T3yq4LIFg3Wt4ud-0). 
 * [Protótipo 02](https://www.figma.com/file/uUmjhruh0GeV8Ymx99I7Vp/Prototipagem-2.0?type=design&node-id=0-1&mode=design&t=7nek9z6tjOiP9If5-0).
 * [Protótipo 03](https://www.figma.com/file/p4RZCqIYBuNiY3CBeSMFUd/Prototipagem-3.0?type=design&node-id=0-1&mode=design&t=6jk5H1AtinmXjhLU-0).
+
+## Designers
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/95234698?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Fernanda Holanda</sub>](https://github.com/fefehr13) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113485635?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Maria Eliza</sub>](https://github.com/elizateofilo) | 
+| --- | --- | 
