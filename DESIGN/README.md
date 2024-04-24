@@ -11,8 +11,45 @@ Nossa abordagem de design visa combinar estética impressionante com funcionalid
 
 [Logotipo](Logotipo):
 
-[Mockup](Mockup): Nesta seção, você encontrará o Mockup no formato em PDF para facilitar a visualização.
+[Mockup](Mockup): O mockup foi criado(Figma) para fornecer uma representação visual detalhada de como um site real de comida cearense pode ser projetado. Ele oferece uma visualização detalhada do design inicial do site, incluindo layout, cores?, tipografia? e elementos de interface.
 
-[Paleta de Cores - Teste](Paletas-Testes)
 
-[Wireframe](Wireframe): O wireframe pode ser visualizado diretamente no repositório. Ele está disponível no formato em PDF para facilitar a visualização.
+[Paleta de Cores - Teste](https://github.com/CompanyAvuTech/Panela_Siarense/tree/main/DESIGN/Paletas%20-%20Testes): 
+
+[Protótipos](Protótipos):
+
+###### Sobre o Wireframe do Site "PanelaSiarense"
+[Wireframe](Wireframe): O wireframe neste repositório foi criado com o objetivo de representar os esboços iniciais e a estrutura preliminar do design site PanelaSiarense. Visando fornecer uma visão inicial da estrutura e layout do site, representando as diferentes páginas e funcionalidades. Ele abrange as seguintes áreas principais:
+
+- **Página Inicial:** Apresenta uma visão geral do site e destaca as principais seções e funcionalidades.
+- **Página de Login:** Permite que os usuários acessem suas contas inserindo suas credenciais.
+- **Página de Cadastro:** Permite que novos usuários criem uma conta no site fornecendo informações básicas.
+- **Página de Esqueceu a Senha:** Permite que os usuários solicitem a redefinição da senha.
+- **Página de Receitas:** Lista as receitas disponíveis, permitindo aos usuários explorar e descobrir novos pratos.
+- **Página de Detalhes da Receita:** Fornece informações detalhadas sobre uma receita específica, incluindo ingredientes, instruções de preparo e imagens.
+- **Página de Perfil do Usuário:** Mostra informações do perfil do usuário, como nome, foto, e algumas configurações.
+- **Página de Alterar Senha:** Permite que os usuários alterem sua senha atual para uma nova.
+
+
+###### Sobre o Mockup do Site "PanelaSiarense"
+## Mockup 
+
+### Visualização e Edição:
+
+Para visualizar e editar o mockup, siga estas etapas:
+
+* Abra o arquivo [Mockup-AvuTech](https://www.figma.com/file/ei20XoKCfJbyLhqm0iOSv0/Mockup-AvuTech?type=design&node-id=0%3A1&mode=design&t=iaCacyyEhwh6NJyt-1) no Figma.
+* Você pode visualizar cada tela individualmente e também editar o design conforme necessário.
+
+###### Sobre o Protótipo do Site "PanelaSiarense"
+## Protótipo 
+Este repositório contém o protótipo desenvolvido no Figma para o site "PanelaSiarense". O protótipo visa proporcionar uma visualização interativa e detalhada da interface do usuário, fluxos de navegação e design geral do site, oferecendo uma experiência visual para entender como os usuários interagirão com o site e como a informação será apresentada de forma clara e atrativa.
+
+### Funcionalidades Principais:
+Apresentação de Pratos Típicos: Destaca os pratos mais conhecidos da culinária cearense, com imagens, descrições e informações relevantes.
+
+Interação com Receitas Tradicionais: Os usuários podem explorar receitas autênticas do Estado, com instruções passo a passo e dicas de preparo. A interação permite a visualização detalhada das etapas de preparação e dos ingredientes necessários.
+
+### Como Utilizar o Protótipo
+O protótipo pode ser acessado diretamente no Figma através do seguinte link: [Protótipo do site PanelaSiarense](https://www.figma.com/proto/1w7IPVuEw7wI0GnoPSRoQv/PanelaSiarence?type=design&node-id=102-2&t=XJAJ6VLgcc4rpIit-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=102%3A2&show-proto-sidebar=1). 
+
