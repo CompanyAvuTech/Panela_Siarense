@@ -31,7 +31,7 @@ Nossa abordagem de design visa combinar estética impressionante com funcionalid
 [Paleta de Cores - Teste](https://github.com/CompanyAvuTech/Panela_Siarense/tree/main/DESIGN/Paletas%20-%20Testes): Nossas paletas de cores são fundamentais para transmitir a essência e a personalidade do nosso projeto. Elas definem a atmosfera visual e ajudam a criar uma experiência coesa e atraente para os nossos usuários.
 * Paleta 01: Nossa paleta pastel é composta por tons suaves e delicados, evocando uma sensação de calma e serenidade. Essas cores são ideais para criar uma estética suave e acolhedora, adicionando uma camada de delicadeza ao design.
 * Paleta 02: Nossa paleta vibrante é composta por cores intensas e ousadas que capturam a atenção e transmitem energia e vitalidade. Essas cores são ideais para elementos de destaque e para criar uma experiência visual dinâmica e impactante.
-* Paleta 03 e 04: Além das paletas pastel e vibrante, oferecemos duas paletas alternativas para fornecer opções adicionais e flexibilidade de design.
+* Paletas 03 e 04: Além das paletas pastel e vibrante, oferecemos duas paletas alternativas para fornecer opções adicionais e flexibilidade de design.
 
 ###### Sobre a Logotipo do Site "PanelaSiarense"
 [Logotipo](Logotipo): Nosso logotipo é o coração visual do nosso site. Ele representa nossa missão, valores e personalidade de uma forma única e memorável.
