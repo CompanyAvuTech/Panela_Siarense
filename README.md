@@ -1,7 +1,7 @@
 ###### Repositório destinado ao site "Panela Siarense", por AvuTech.
 <h1 align="center"> Panela Siarense </h1> 
 <p align="center">
-  <img width="300" height="300" src="https://github.com/CompanyAvuTech/PanelaSiarense/blob/main/Logo/Logo.jpg?raw=true">
+  <img width="300" height="300" src="https://github.com/CompanyAvuTech/Panela_Siarense/blob/main/DESIGN/Logotipo/Logo.jpg?raw=true">
 </p>
 
 ### Introdução: 
