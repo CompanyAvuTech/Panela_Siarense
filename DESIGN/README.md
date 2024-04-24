@@ -41,4 +41,4 @@ Nossa abordagem de design visa combinar estética impressionante com funcionalid
 Os protótipos pode ser acessado diretamente no Figma através dos seguinte links: 
 * [Protótipo 01](https://www.figma.com/file/1w7IPVuEw7wI0GnoPSRoQv/PanelaSiarense?type=design&node-id=0-1&mode=design&t=3T3yq4LIFg3Wt4ud-0). 
 * [Protótipo 02](https://www.figma.com/file/uUmjhruh0GeV8Ymx99I7Vp/Prototipagem-2.0?type=design&node-id=0-1&mode=design&t=7nek9z6tjOiP9If5-0).
-* [Prtótipo 03](https://www.figma.com/file/p4RZCqIYBuNiY3CBeSMFUd/Prototipagem-3.0?type=design&node-id=0-1&mode=design&t=6jk5H1AtinmXjhLU-0)
+* [Prtótipo 03](https://www.figma.com/file/p4RZCqIYBuNiY3CBeSMFUd/Prototipagem-3.0?type=design&node-id=0-1&mode=design&t=6jk5H1AtinmXjhLU-0).
