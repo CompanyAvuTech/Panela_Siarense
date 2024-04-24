@@ -9,7 +9,7 @@ Nossa abordagem de design visa combinar estética impressionante com funcionalid
 ## Estrutura do Repositório
 
 ###### Sobre o Fluxo de Tela do Site "PanelaSiarense"
-[Fluxo_de_Tela](Fluxo_de_Tela): Aqui disponibilizamos o fluxo de tela do site PanelaSiarence, mostrando a navegação entre as diferentes páginas e interações do usuário.
+[Fluxo_de_Tela](Fluxograma): Aqui disponibilizamos o fluxo de tela do site PanelaSiarence, mostrando a navegação entre as diferentes páginas e interações do usuário.
 
 ###### Sobre a Logotipo do Site "PanelaSiarense"
 [Logotipo](Logotipo): Nosso logotipo é o coração visual do nosso site. Ele representa nossa missão, valores e personalidade de uma forma única e memorável.
