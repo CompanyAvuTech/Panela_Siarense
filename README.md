@@ -33,9 +33,11 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 
 ## Equipe de Desenvolvedores 
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113717770?v=4" width="100px"><br><sub>PO/ DEV Front End.:</sub><br><sub>Átila Rufo</sub>](https://github.com/atilarufo) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/111385282?v=4" width="100px"><br><sub>SM/ DEV Front End.:</sub><br><sub>Ana Carolina Gonzaga</sub>](https://github.com/Sasury-Ryash) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/95234698?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Fernanda Holanda</sub>](https://github.com/fefehr13) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113485635?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Maria Eliza</sub>](https://github.com/elizateofilo) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113708065?v=4" width="100px"><br><sub>DEV Back End.:</sub><br><sub>Sophia Mello</sub>](https://github.com/SophiaMel) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113717770?v=4" width="100px"><br><sub>PO/ DEV Front End.:</sub><br><sub>Átila Rufo</sub>](https://github.com/atilarufo) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/111385282?v=4" width="100px"><br><sub>SM/ DEV Front End.:</sub><br><sub>Ana Carolina Gonzaga</sub>](https://github.com/Sasury-Ryash) | 
 | --- | --- | 
 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/95234698?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Fernanda Holanda</sub>](https://github.com/fefehr13) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113485635?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Maria Eliza</sub>](https://github.com/elizateofilo) | 
+| --- | --- | 
 
 ## Contato 
 
