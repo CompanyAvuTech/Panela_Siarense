@@ -1,0 +1,36 @@
+<%- include('./partials/header') %>
+
+<body>
+  <div class="container-fluid">
+    <div class="login">
+      <div class="logo">
+        <div class="col-md-12">
+          <img src="/img/Logo.jpg" alt="" style="height: 20%; width: 20%; border-radius: 55%;">
+          <h1> PanelaSiarense</h1>
+          <h3>Alterar Senha</h3>
+          <hr>
+        </div>
+      </div>
+      <section>
+        <form  method="post" action="/auth/altsenha">
+          <div class="mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua nova senha" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Confirme sua nova senha" required>
+          </div>
+          <!-- botões -->
+          <div class="row">
+            <input type="submit" class="btn" id="sub" value="Alterar">
+          </div>
+      </section>
+      </form>
+      <hr>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
