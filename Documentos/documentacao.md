@@ -8,7 +8,7 @@
 <h3>Tela de Cadastro e Tela de Receitas</h3> 
 <li>https://codepen.io/EmirethRosas/details/eYopmwy</li> 
 <li>https://www.farturabrasil.com.br/cat-receita/receitas-regionais/</li>
-<h1>Frameworks,Bibliotecas para o funcionamento do projeto</h1>
+<h2>Frameworks,Bibliotecas para o funcionamento do projeto</h2>
 <h2>Bootsrap:</h2>
 <p>Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma. Geralmente, o Bootstrap é distribuído usando o site oficial e npm. Você também pode criar sua própria distribuição usando o código-fonte, ou por meio da própria rede de distribuição de conteúdo conhecida como CDN do Bootstrap. Um CDN permite que um site da web recupere com frequência arquivos públicos usados ​​de servidores distribuídos globalmente.
 </p>
