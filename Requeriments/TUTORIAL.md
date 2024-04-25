@@ -33,7 +33,6 @@ Altere o diretório de trabalho atual para o local onde deseja clonar o diretór
 </li>
 <li>
 Digite o comando git clone e cole a URL que você copiou anteriormente.
-<a>git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</a>
 </li>
 <li>
 Pressione Enter para criar o clone local.
