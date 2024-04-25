@@ -8,7 +8,7 @@
 <li> Na tag head da estrutura de uma pagina hmtl adicione os links CDN para javascript e css </li>
 <h3>Exemplo:</h3>  
   <p><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"></p> 
-  <p><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script></p> </li>
+  <p><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script></p>
 <h2>Nodemon:</h2>
 <p> É uma biblioteca que monitora automaticamente as alterações nos arquivos da aplicação e reinicia o servidor de forma rápida e eficiente, quando as modificacões forem salvas. </p>
 <h3>Instalacão e uso</h3>
