@@ -18,18 +18,11 @@ Altere o diretório de trabalho atual para o local em que deseja ter o diretóri
 </li>
 <li> 
 Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 </li>
 
 <li> 
 Pressione ENTER para criar seu clone local.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `Spoon-Knife`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-</li>
+<img src="https://www.virtualizationhowto.com/wp-content/uploads/2017/08/Use-Git-Clone-command-to-clone-remote-repository.png">
 <h3>Mac</h3>
 <li>
 Abra o Terminal
@@ -39,11 +32,12 @@ Altere o diretório de trabalho atual para o local onde deseja clonar o diretór
 </li>
 <li>
 Digite o comando git clone e cole a URL que você copiou anteriormente.
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+<p>git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</p>
 </li>
 <li>
 Pressione Enter para criar o clone local.
 </li>
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3-DJi_hchhg9fG3IKF803se93BD3_zjvy91Edf0fujv_byLVjYyPQ2-83-OESWlUp8rUUV9mEWhPEIfuZUnNbPmH4kwcPoe6PEzqnH_ijjuY_wJWklVMoBK1cXhtKz5Qq6s0vMX1T9doT64qZO6XiRKYHCWjgoKtGNZEs47uRWI8R9Zf5CjIMiOLg/s16000/image8.png">
 <h3>Linux</h3>
 <li>
 Abra o terminal ou prompt de comando no seu sistema Linux.
@@ -58,6 +52,7 @@ Use o comando git clone seguido da URL do repositório que você deseja clonar.
 Pressione Enter para criar o clone local.
 </li>
 <li> 
+<img src="https://www.testingdocs.com/wp-content/uploads/Git-Clone-TestLink-code-Linux.png">
 <h2>Rodando</h2>
 <l1>
 Abra a arquivo clonado na IDE da sua prefêrencia 
