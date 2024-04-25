@@ -6,7 +6,7 @@
 <li>Na página de download oficial você encontra com detalhes todas as formas de instalar o Bootstrap.Nós vamos aprender a instalá-lo via CDN.</li>
 <li>Crie uma pasta e um arquivo chamado index.html.</li>
 <li> Na tag head da estrutura de uma pagina hmtl adicione os links CDN para javascript e css </li>
-<li>Exemplo:  
+<h3>Exemplo:</h3>  
   <p><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"></p> 
   <p><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script></p> </li>
 <h2>Nodemon:</h2>
