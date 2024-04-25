@@ -4,10 +4,11 @@
 No GitHub.com, navegue até a página principal do repositório.
 </li>
 <li> 
-Acima da lista de arquivos, clique em  Código.
+Acima da lista de arquivos, clique em <> Code.
 </li>
 <li> 
-Acima da lista de arquivos, clique em  Código.
+Copie o url do repositorio
+<a>git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</a>
 </li>
 <h3>Windows</h3>
 <li> 
@@ -16,8 +17,8 @@ Abra Git Bash
 <li> 
 Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
 </li>
-<li> 
-Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
+<li>
+Digite git clone e cole a url já copiada
 </li>
 <li>
 Pressione ENTER para criar seu clone local.
