@@ -19,9 +19,8 @@ Altere o diretório de trabalho atual para o local em que deseja ter o diretóri
 <li> 
 Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
 </li>
-
-<li> 
 Pressione ENTER para criar seu clone local.
+<li> 
 <img src="https://www.virtualizationhowto.com/wp-content/uploads/2017/08/Use-Git-Clone-command-to-clone-remote-repository.png">
 <h3>Mac</h3>
 <li>
