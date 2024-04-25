@@ -39,3 +39,10 @@
 <li>Antes de baixar o express certifique-se de ter baixado a versão mais recente do Nodejs</li>
 <li>se for um projeto novo crie o package.json via linha de comando pelo comando $ npm init</li>
 <li>Instale as dependências $ npm install express</li>
+<h2>EJS</h2>
+<p>Chama-se Embedded JavaScript templating (EJS) e é uma linguagem de modelagem simples que permite gerar marcação HTML com JavaScript simples. Como principais características, destaque para:</h2>
+<li>Uso de JavaScript</li>
+<li>Simples para desenvolver aplicações/serviços</li>
+<li>Muito fácil de fazer debugging</li>
+<h3>Instalação e uso</h3>
+<li>instale o ejs via terminal pelo comando $npm install ejs -save  </li>
