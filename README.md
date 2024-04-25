@@ -40,7 +40,7 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 | --- | --- | 
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113708065?v=4" width="100px"><br><sub>DEV Back End.:</sub><br><sub>Sophia Mello</sub>](https://github.com/SophiaMel) | 
-| --- | --- | 
+| --- | 
 
 ## Contato 
 
