@@ -39,6 +39,9 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/95234698?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Fernanda Holanda</sub>](https://github.com/fefehr13) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113485635?v=4" width="100px"><br><sub>ARQ.:</sub><br><sub>Maria Eliza</sub>](https://github.com/elizateofilo) | 
 | --- | --- | 
 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113708065?v=4" width="100px"><br><sub>DEV Back End.:</sub><br><sub>Sophia Mello</sub>](https://github.com/SophiaMel) | 
+| --- | --- | 
+
 ## Contato 
 
 Para mais informações sobre o projeto PanelaSiarense ou para entrar em contato com a equipe, você pode nos encontrar nos seguintes canais:
