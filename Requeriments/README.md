@@ -58,6 +58,7 @@ Use o comando git clone seguido da URL do repositório que você deseja clonar.
 Pressione Enter para criar o clone local.
 </li>
 <li> 
+<h2>Rodando</h2>
 Abra a arquivo clonado na IDE da sua prefêrencia 
 </li>
 <li> 
