@@ -59,6 +59,7 @@ Pressione Enter para criar o clone local.
 </li>
 <li> 
 <h2>Rodando</h2>
+<l1>
 Abra a arquivo clonado na IDE da sua prefêrencia 
 </li>
 <li> 
@@ -67,5 +68,4 @@ no terminal rode o comando $ npm install para instalar todos os modulos
 <li> 
 após instalar rode o comando $ npm run dev
 </li>
-<li> 
-</li>
+
