@@ -4,3 +4,7 @@
 <p>database</p>
 <li> https://www.youtube.com/watch?v=V8dYGNfHjfk&t=1793s</li>
 <li>https://github.com/jahid28/Login-Signup-Form</li>
+
+<h3>Tela de Cadastro e Tela de Receitas</h3> 
+<li>https://codepen.io/EmirethRosas/details/eYopmwy</li> 
+<li>https://www.farturabrasil.com.br/cat-receita/receitas-regionais/</li>
