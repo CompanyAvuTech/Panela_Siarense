@@ -1,0 +1,130 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  
+  h2 {
+    color: #D55A00;
+  }
+  
+  .logo {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .cuscuz {
+    margin-top: 10px;
+    width: 520px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .btn {
+    background-color: #8B4513;
+    
+  }
+  
+  .btn:hover {
+    background-color: #522200;
+  }
+  
+  #descricao {
+    text-align: justify;
+  }
+  
+  #title {
+    margin-top: 30px;
+  }
+  
+  #text {
+    margin-top: 20px;
+  }
+  
+  .col-md-6 {
+    margin-top: 10px;
+  }
+  
+  .ml-2 {
+    background-color: #c41212;
+    margin-left: 1100px;
+    margin-top: 50px;
+    border: none !important;
+    background: transparent;
+    color: #c41212;
+    font-size: 40px;
+  }
+  
+  .ml-2:hover {
+    background-color: #95041c;
+  }
+  
+  .comment {
+    background-color: #F3BC55;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  #user {
+    border-radius: 100px;
+    color: black;
+    
+  }
+  
+  #duda {
+    color: #ffff;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  #dudsz {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  #pedro {
+    color: #ffff;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  #pedrosz {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .user-icon {
+    width: 100px;
+    height: 100px;
+    color: black;
+  }
+  footer {
+    background-color: #EE9612;
+  }
+  
+  .col {
+    margin-top: 15px;
+  }
+  
+  #contatos {
+    margin-left: 30px;
+  }
+  
+  #integrantes {
+    margin-left: 30px;
+  }
