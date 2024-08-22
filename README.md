@@ -43,6 +43,6 @@ Nossa motivação para o projeto "Panela Siarense" surge do desejo de compartilh
 
 Para mais informações sobre o projeto PanelaSiarense ou para entrar em contato com a equipe, você pode nos encontrar nos seguintes canais:
 
-- Email: [avutech6gmail.com](avutech6gmail.com)
+- Email: [avutech6gmail.com](avutech6@gmail.com)
 - GitHub: [CompanyAvuTech](https://github.com/CompanyAvuTech)
 
