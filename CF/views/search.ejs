@@ -38,7 +38,7 @@
       <div class="col-8 text-center">
         <h1> <img src="/img/Logo.jpg" alt="logo" class="img-fluid"> Panela Siarense </h1>
         <div class="searchWrapper">
-          <form class="d-flex w-100" method="POST" action="/produto/search">
+          <form class="d-flex w-100" method="POST" action="/search">
             <input type="search" name="searchTerm" class="searchInput" placeholder="Pesquisar">
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
@@ -53,53 +53,28 @@
   </header>
 </div>
 </header>
-<div class="nav justify-content-center mt-3">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Noroeste</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Norte</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/produto/Metropolitana">Região Metropolitana</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/produto/receita">Sul</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Jaguaribe</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Centro-Sul</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Sertões</a>
-  </li>
-</div>
-  <div class="conteudo">
-    <div class="row">
-      <div class="col-md-6" id="map">
-        <img src="/img/map.png">
-      </div>
-      <div class="col-md-6" id="text">
-        <p>Bem-vindo ao "PanelaSiarense"! Nosso site é um destino online dedicado a explorar e celebrar a rica culinária do estado do Ceará, no nordeste do Brasil. Aqui, os visitantes têm a oportunidade de mergulhar em uma jornada gastronômica única, descobrindo os sabores autênticos e as tradições culinárias únicas dessa estado vibrante.
-          No "PanelaSiearence", destacamos uma ampla variedade de pratos típicos, desde os clássicos até os mais contemporâneos, oferecendo uma visão abrangente da diversidade gastronômica que o estado tem a oferecer. Dos pratos de frutos do mar frescos da costa às iguarias preparadas com carne de sol do sertão, cada mordida é uma experiência para os sentidos.
-          Além de apresentar receitas tradicionais e inspiradoras, o nosso site também compartilha histórias fascinantes por trás dos pratos, explorando a origem dos ingredientes, a influência cultural e as técnicas de preparação únicas que tornam a comida cearense tão especial. </p>
-      </div>
-    </div>
-    <h1 id="populares">Mais procurados </h1>
-    <div class="pop-container">
-    </div>
+<div class="row">
+  <div class="col-sm-3">
+    <div class="card">
+        <% if(receitas != '' ) { %>
+        <% receitas.forEach(function(receita){ %>
+      <img src="/img/<%= receita.img %>" class="card-img-top" alt="<%= receita.titulo %>">
+      <div class="card-body">
+        <h5><a class="card-title"><%= receita.titulo %></a></h5>
 
+      </div>
+    </div>
   </div>
-  <script src="script.js"></script>
-  
-  <footer  class="container-fluid mt-5 py-3 footer">
-    <%- include('./partials/footer') %>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<% }) %>
+  <% } %> 
+</div>
+
+<footer class="container-fluid mt-5 py-3 footer">
+<%- include('./partials/footer') %>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -32,19 +32,19 @@
     </div>
     <div class="content">
       <div class="profile">
-        <img src="/img/perfil.jpg" class="img-fluid">
-        <h1> Nome de Usuário</h1>
+        <img src="<%= user.photo || 'perfil.jpg'%>" class="img-fluid">
+        <h1><%= user.name || 'Anonymous' %> </h1>
       </div>
 
       <div class="info">
-        <h6>Email: user@email.com</h6>
+        <h6> Email: <%= user.username || 'Sem email' %></h6>
         <h6>Bio: (Opcional)</h6>
         <p>xxxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxxxxxxxxx</p>
         <div class="pass">
           <h6>Senha: * * * * * * <i class="fa fa-eye" style="color: black; margin-left: 5px; margin-bottom: 1px;"></i>
           </h6>
-          <a class="altsenha" href="/auth/altsenha">Alterar</a>
-          
+          <a class="altsenha" href="/auth/changePassword">Alterar</a>
+          <a class="logout" href="/auth/logout">Logout</a>
         </div>
         <div class="carrossel">
           <h1>Favoritos</h1>

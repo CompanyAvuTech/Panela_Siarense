@@ -1,12 +1,6 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://AvuUser:EkQHlWdo1YQ9Jtn0@securitycluster.emyzxlh.mongodb.net/contas?retryWrites=true&w=majority")
-.then(()=>{
-    console.log('mongoose connected');
-})
-.catch((e)=>{
-    console.log('failed');
-})
-const dataSchema = new mongoose.Schema({
+
+const receitaSchema = new mongoose.Schema({
     titulo: {
         required: true,
         type: String
@@ -30,9 +24,11 @@ const dataSchema = new mongoose.Schema({
     img: {
         required: true,
         type: String 
-    }
-
-})
-const Receita=new mongoose.model('Receita', dataSchema)
+    },
+    },
+      {timestamps: true}
+);
+receitaSchema.index({  "$**" : 'text'  });
+const Receita=new mongoose.model('Receita', receitaSchema)
 module.exports=Receita
 
