@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("/img/Logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.center{
+  background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(38,38,38,0.7) 15%, rgba(38,38,38,0.7) 85%, rgba(0,0,0,0.7) 100%);
+  background: linear-gradient(0deg, rgba(184,115,51,0.5) 0%, rgba(205,127,50,0.5) 10%, rgba(184,115,51,0.5) 26%, rgba(255,200,150,0.5) 47%, rgba(184,115,51,0.5) 65%, rgba(205,127,50,0.5) 90%, rgba(184,115,51,0.5) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#header, ::placeholder, .btn-col-5{
+  color: white;
+  font-weight: bold;  
+}
+hr{
+  margin-top: 0%;
+  width: 70%;
+  border: 2px solid #FFBC40;
+}
+#form input{
+  background-color: rgb(208, 149, 72);
+  border: none;
+}
+
+#botoes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-col-5{
+  background-color: #8C4C1A;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.goo{
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 7px;
+}
+

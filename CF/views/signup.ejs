@@ -1,0 +1,44 @@
+<%- include('./partials/header') %>
+<body>
+  <div class="container-fluid-md">
+    <div class="center">
+      <div class="row" id="header">
+        <h1> Panela Siarense</h1>
+        <h3> Registre-se</h3>
+        </div>
+        <hr>
+      <div class="row" id="form">
+      <section>
+        <form>
+          <div class="mb-3">
+            <input type="name" class="form-control" id="name" name="name" placeholder="Nome" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="username" class="form-control" id="username" name="username" placeholder="Email" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Senha" required>
+          </div>
+          <!-- botões -->
+          <div class="mb-3" id="botoes">
+            <input type="submit" class="btn-col-5" id="signup" href="/auth/signup"></input>
+        <a type="button" class="btn-col-5" id="login" href="/auth/login"> Login </a>
+          </div>
+        </form>       
+
+      </section>
+    </div>
+    <hr>
+    <a href="/auth/google" class="btn btn-block btn-social btn-google w-100" role="button">
+      <i class="fab fa-google"></i>
+      <span>Login with Google</span>
+    </a>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

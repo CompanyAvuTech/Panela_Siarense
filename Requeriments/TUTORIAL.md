@@ -58,6 +58,9 @@ Pressione Enter para criar o clone local.
 Abra a arquivo clonado na IDE da sua prefêrencia 
 </li>
 <li> 
+entre na pasta do codigo fonte usando o comando $cd CF
+</li>
+<li> 
 no terminal rode o comando $ npm install para instalar todos os modulos 
 </li>
 <li> 
