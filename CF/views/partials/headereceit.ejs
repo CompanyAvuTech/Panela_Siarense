@@ -38,14 +38,14 @@
         <div class="col-8 text-center">
           <h1> <img src="/img/Logo.jpg" alt="logo" class="img-fluid"> Panela Siarense </h1>
           <div class="searchWrapper">
-            <form class="d-flex w-100" method="POST" action="/search">
+            <form class="d-flex w-100" method="POST" action="/produto/search">
               <input type="search" name="searchTerm" class="searchInput" placeholder="Pesquisar">
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </div>
         <div class="col-2 text-end">
-          <button class="btn btn-primary" id="user"><i class="fa fa-user-circle" aria-hidden="true"></i></button>
+          <a class="btn btn-primary" href="/auth/profile"  id="user"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
         </div>
 
       </div>
