@@ -1,8 +1,9 @@
+
 <%- include('./partials/headereceit') %>
-    <h3 id="Noroeste">Noroeste</h3>
+    <h3 id="Centrosul">Centro-Sul</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-            <% if(noroeste  && noroeste.length > 0 ) { %>
-            <% noroeste.forEach(function(receita){ %>
+            <% if(centrosul  && centrosul.length > 0 ) { %>
+            <% centrosul.forEach(function(receita){ %>
           <div class="col">
           <div class="card h-100">
           <img src="/img/<%= receita.img %>" class="card-img-top" alt="<%= receita.titulo %>">
@@ -17,7 +18,6 @@
         <p>No items found.</p>
       <% } %> 
   </div>
-  
   <footer class="container-fluid mt-5 py-3 footer">
     <%- include('./partials/footer') %>
   </footer>

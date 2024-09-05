@@ -10,7 +10,7 @@
           <hr>
         <div class="row" id="form">
       <section>
-        <form>
+        <form  action="/auth/login" method="post">
           <div class="mb-3">
             <input type="username" class="form-control" id="username" name="username" placeholder="Email" required>
           </div>
@@ -20,8 +20,8 @@
           </div>
           <!-- botões -->
           <div class="mb-3" id="botoes">
-            <input type="submit" class="btn-col-5" id="login" href="/auth/login"></input>
-        <a type="login" class="btn-col-5" id="signup" href="/auth/signup"> Registrar-se </a>
+            <input type="submit"  value= "Login" class="btn-col-5" id="login" ></input>
+        <a type="button" class="btn-col-5" id="signup" href="/auth/signup"> Registrar-se </a>
           </div>
         </form>       
 

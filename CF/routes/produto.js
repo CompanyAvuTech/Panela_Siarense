@@ -39,11 +39,11 @@ router.get('/Noroeste',async (req, res) => {
     res.status(500).send(err);
   }
 });
-router.get('/Sertões',async (req, res) => {
+router.get('/Sertoes',async (req, res) => {
   try {
     const limitNumber = 3;
     const sertoes = await Receita.find({ 'regiao': 'Sertões' }).limit(limitNumber);
-    res.render('Sertões',{sertoes});
+    res.render('Sertoes',{sertoes});
   } catch (err) {
     res.status(500).send(err);
   }
@@ -57,11 +57,11 @@ router.get('/Norte',async (req, res) => {
     res.status(500).send(err);
   }
 });
-router.get('/Centro-sul',async (req, res) => {
+router.get('/Centrosul',async (req, res) => {
   try {
     const limitNumber = 3;
     const centrosul = await Receita.find({ 'regiao': 'Centro-sul' }).limit(limitNumber);
-    res.render('Centro-sul',{centrosul});
+    res.render('Centrosul',{centrosul});
   } catch (err) {
     res.status(500).send(err);
   }
