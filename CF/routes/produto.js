@@ -7,15 +7,15 @@ const mdbFunctionsDAO = require("../dao/mdb_functions");
 router.get('/receita', (req, res) => {
   res.render('receita');
 });
-router.get('/receitas', (req, res) => {
-  res.render('receitas');
-});
-
-router.post('/receitas', async (req, res) => {
+router.get('/receitas/:titulo', async (req, res) => {
   try {
-   // let recipeId = req.params.id;
-   // const receita = await Receita.findById(recipeId);
-    res.render('receita');
+    let titulo = req.params.titulo;
+    const receita = await Receita.findOne({titulo: titulo })
+    .populate({
+      path: 'comentarios',
+      populate: { path: 'usuario', select: 'name' } 
+    });
+    res.render('receitas', {receita} );
   } catch (err) {
     res.status(500).send(err);
   }
@@ -96,49 +96,62 @@ router.post('/search',async (req, res) => {
     res.status(500).send(err);
   }
 });
-
-/*router.post("/receitas/coments", async (req, res) => {
-    try {
-        const coments = new Coments({
-          conteudo:req.body.conteudo,
-          username:req.body.username
-        });
-        await Coments.Create(coments);
-        res.redirect('receitas');
-    } catch (err) {
-      res.status(500).send(err);
-    }
-  });
-
-/*router.get("/receitas/coments", (req, res)=>{
-  if(req.isAuthenticated()){
-    res.render("coments");
-  }else{
-    res.redirect("/auth/login");
+const ensureAuthenticated = (req, res, next) => {
+  if (req.isAuthenticated()) {
+    return next();
   }
-});
-  router.post("/receitas/coments", async (req, res) => {
+  res.redirect('/auth/login');
+};
+
+router.post("/receitas/:titulo/comentarios", ensureAuthenticated,async (req, res) => {
+ try {
+  console.log('Request Body:', req.body);
+  console.log('Recipe Title:', req.params.titulo);
+    const titulo = req.params.titulo;
+    const comentario = req.body.comentario;
+
+     const receita = await Receita.findOne({ titulo: titulo });
+     if (!receita) {
+       return res.status(404).send('Recipe not found');
+     }
+     receita.comentarios.push({
+       usuario: req.user ? req.user._id : null, // Use the logged-in user's ID, if available
+       comentario: comentario
+     });
+ 
+     await receita.save(); 
+    res.redirect(`/receitas/${encodeURIComponent(titulo)}`);
+  } catch (err) {
+    console.error(err); // Log the error
+    res.status(500).send('An error occurred while adding the comment');
+  }
+  });
+  router.post("/receitas/:titulo/like", ensureAuthenticated, async (req, res) => {
     try {
-        const coments = new Coments({
-          conteudo:req.body.conteudo,
-          username:req.body.username
-        });
-        await Coments.Create(coments);
-        res.redirect('receitas');
+      const receita = await Receita.findOne({ titulo: req.params.titulo });
+      if (!receita) {
+        return res.status(404).send("Recipe not found");
+      }
+      usuario: req.user ? req.user._id : null
+      // Check if the user has already liked the recipe
+      const userId = req.user._id;
+      const hasLiked = receita.likes.includes(userId);
+  
+      if (hasLiked) {
+        // If already liked, remove the like
+        receita.likes = receita.likes.filter(id => id.toString() !== userId.toString());
+      } else {
+        // If not liked, add the like
+        receita.likes.push(userId);
+      }
+  
+      await receita.save();
+      res.redirect(`/receitas/${encodeURIComponent(req.params.titulo)}`);
     } catch (err) {
-      res.status(500).send(err);
+      console.error(err);
+      res.status(500).send("An error occurred while processing the like.");
     }
   });
   
-  router.post("/receitas/like", async (req, res)=>{
-    try{
-      const findComents = await Coments.findById(req.body.likesBtn);
-      const updateComentsLikes = await findComents.updateOne({likes: findComents.likes+1});
-      res.redirect("/receitas");
-  
-    }catch(err){
-      res.send(err);
-    }
-  })*/
 
 module.exports = router;

@@ -25,6 +25,20 @@ const receitaSchema = new mongoose.Schema({
         required: true,
         type: String 
     },
+    comentarios:[{
+        comentario:{
+            type:String,
+            required:true
+        },
+        usuario: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'User',
+            required: true
+          },
+         
+    
+    }],
+    likes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }] 
     },
       {timestamps: true}
 );

@@ -1,18 +1,94 @@
 <%- include('./partials/headereceit') %>
-  <div class="conteudo">
-    <div class="row">
-      <div class="col-md-6" id="map">
-        <img src="/img/map.png">
+    <div class="conteudo">
+      <div class="row">
+        <div class="col-md-6" id="map">
+          <img class="img-fluid-2" src="/img/map.png">
+        </div>
+        <div class="col-md-6" id="text">
+          <p> Bem-vindo ao "PanelaSiarense"! Nosso site é um destino online dedicado a explorar e celebrar a rica
+              culinária do estado do Ceará, no nordeste do Brasil. Aqui, os visitantes têm a oportunidade de mergulhar em
+              uma jornada gastronômica única, descobrindo os sabores autênticos e as tradições culinárias únicas dessa
+              estado vibrante.
+              No "PanelaSiearence", destacamos uma ampla variedade de pratos típicos, desde os clássicos até os mais
+              contemporâneos, oferecendo uma visão abrangente da diversidade gastronômica que o estado tem a oferecer. Dos
+              pratos de frutos do mar frescos da costa às iguarias preparadas com carne de sol do sertão, cada mordida é uma
+              experiência para os sentidos.
+              Além de apresentar receitas tradicionais e inspiradoras, o nosso site também compartilha histórias fascinantes
+              por trás dos pratos, explorando a origem dos ingredientes, a influência cultural e as técnicas de preparação
+              únicas que tornam a comida cearense tão especial. 
+          </p>
+        </div>             
+        <h3 class="mb-3">Receitas populares</h3>
       </div>
-      <div class="col-md-6" id="text">
-        <p>Bem-vindo ao "PanelaSiarense"! Nosso site é um destino online dedicado a explorar e celebrar a rica culinária do estado do Ceará, no nordeste do Brasil. Aqui, os visitantes têm a oportunidade de mergulhar em uma jornada gastronômica única, descobrindo os sabores autênticos e as tradições culinárias únicas dessa estado vibrante.
-          No "PanelaSiearence", destacamos uma ampla variedade de pratos típicos, desde os clássicos até os mais contemporâneos, oferecendo uma visão abrangente da diversidade gastronômica que o estado tem a oferecer. Dos pratos de frutos do mar frescos da costa às iguarias preparadas com carne de sol do sertão, cada mordida é uma experiência para os sentidos.
-          Além de apresentar receitas tradicionais e inspiradoras, o nosso site também compartilha histórias fascinantes por trás dos pratos, explorando a origem dos ingredientes, a influência cultural e as técnicas de preparação únicas que tornam a comida cearense tão especial. </p>
-      </div>
-    </div>
-    <h1 id="populares">Mais procurados </h1>
-    <div class="pop-container">
-    </div>
+      <section class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+ 
+            <div class="col-12 text-center">
+              <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-primary mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-12">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img class="image-fluid" alt="100%x280"
+                            src="\img\baiao-dois-1-350x230.jpg">
+                          <div class="card-body">
+                            <h4 class="card-title">Baiao de dois</h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img class="image-fluid" alt="100%x280"
+                            src="\img\canjica.jpg">
+                          <div class="card-body">
+                            <h4 class="card-title">Canjica</h4>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img class="image-fluid" alt="100%x280"
+                            src="/img/queijo.webp">
+                          <div class="card-body">
+                            <h4 class="card-title">queijo coalho</h4>          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-4 mb-3">
+                          <div class="card">
+                            <img class="image-fluid" alt="100%x280"
+                              src="/img/peixefrito.jpg">
+                            <div class="card-body">
+                              <h4 class="card-title">peixe frito</h4>
+                                <p class="card-text"></p>            
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
   </div>
   <script src="script.js"></script>
